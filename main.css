@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53%;
+    height: 100vh;
+    background-color: rgba(14, 14, 188, 0.874);
+}
+
+/* .overlay-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: rgba(14, 14, 188, 0.874)
+} */
+
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background: rgba(0, 2, 63, .9);
+    text-align: center;
+}
+
+.sidebar img{
+    width: 22px;
+    display: block;
+    margin: 50px auto 80px;
+    cursor: pointer;
+}
+
+.social-media{
+    width: 100%;
+    height: 50%;
+    background-color: #ed383d;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.social-media img{
+    width: 30px;
+    margin: 15px;
+}
+
+.container{
+    background: rgba(0, 2, 63, .9);
+    width: 53%;
+    height: 100vh;
+    position: relative;
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.shop-icon{
+    width: 25px;
+    margin: 10px 60px;
+    cursor: pointer;
+}
+
+.play-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+    cursor: pointer;
+    width: 140px;
+}
+
+.info{
+    padding: 50px 18%;
+    color: #fff;
+}
+
+.info h3{
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.info h1{
+    font-size: 92px;
+    font-weight: normal;
+}
+
+.info p{
+    margin-top: 25px;
+    color: #999;
+    font-size: 11px;
+    font-family: sans-serif;
+    line-height: 1.9;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.row .line{
+    background-color: #999;
+    width: 80%;
+    height: 2px;
+    border-radius: 2px;
+}
+
+.row .line span{
+    background: #ed383d;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.row h2{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.indicator{
+    max-width: 220px;
+    margin: 50px 0 50px;
+}
+
+.indicator p{
+    margin-top: -3px;
+}
